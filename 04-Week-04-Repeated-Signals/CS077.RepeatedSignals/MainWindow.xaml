@@ -1,0 +1,18 @@
+<Window x:Class="CS077.RepeatedSignals.MainWindow"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="Ashwake | Repeated Signals" Height="520" Width="760"
+ MinHeight="420" MinWidth="440">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="24">
+            <TextBlock Text="Ashwake receiver" FontSize="28"/>
+            <TextBlock Text="Packets (separate with semicolons)" Margin="0,16,0,4"/>
+            <TextBox x:Name="PacketInput" MaxLength="200"
+    Text="PING;PING;DISTRESS;STOP;PING"/>
+            <Button x:Name="ScanButton" Click="ScanButton_Click" Content="Scan batch"
+    HorizontalAlignment="Left" Padding="18,8" Margin="0,12"/>
+            <TextBlock x:Name="SignalOutput" Text="Ready."
+    TextWrapping="Wrap" FontFamily="Consolas"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
