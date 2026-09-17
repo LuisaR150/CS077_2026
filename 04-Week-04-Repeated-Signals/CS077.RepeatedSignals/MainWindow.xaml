@@ -5,7 +5,7 @@
  MinHeight="420" MinWidth="440">
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel Margin="24">
-            <TextBlock Text="Ashwake receiver" FontSize="28"/>
+            <TextBlock Text="Jane receiver" FontSize="28"/>
             <TextBlock Text="Packets (separate with semicolons)" Margin="0,16,0,4"/>
             <TextBox x:Name="PacketInput" MaxLength="200"
     Text="PING;DISTRESS;PING"/>
