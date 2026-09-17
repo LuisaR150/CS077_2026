@@ -11,6 +11,8 @@
     Text="PING;PING;DISTRESS;STOP;PING"/>
             <Button x:Name="ScanButton" Click="ScanButton_Click" Content="Scan batch"
     HorizontalAlignment="Left" Padding="18,8" Margin="0,12"/>
+            <Button x:Name="ResetButton" Click="ResetButton_Click" Content="Reset receiver"
+    HorizontalAlignment="Left" Padding="18,8" Margin="0,0,0,12"/>
             <TextBlock x:Name="SignalOutput" Text="Ready."
     TextWrapping="Wrap" FontFamily="Consolas"/>
         </StackPanel>
