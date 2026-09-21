@@ -69,7 +69,7 @@ The whiteboard shows course collaboration and planning evidence used while worki
 
 ![Whiteboard and course collaboration evidence](Screenshots/Course_Collaboration_Evidence.png) 
 ![Whiteboard and course collaboration evidence](Screenshots/4Acollaboration.png)
-![Whiteboard and course collaboration evidence](screenshots/4A.1collab.png)
+![Whiteboard and course collaboration evidence](Screenshots/4A.1collab.png)
 
 ## How to run and sources
 
