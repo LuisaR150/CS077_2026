@@ -1,0 +1,11 @@
+<Window x:Class="StoryProduct.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Title="My Story Product" Width="600" Height="520" MinWidth="350" MinHeight="430">
+    <StackPanel Margin="24">
+        <TextBlock Text="My story checklist" FontSize="26" />
+        <Label Content="_Name" Target="{Binding ElementName=NameInput}" />
+        <TextBox x:Name="NameInput" />
+        <Button Content="Build my checklist" Click="Build_Click"
+            Margin="0,16,0,12" Padding="12" />
+        <TextBlock x:Name="ResultText" Text="Ready."
+               TextWrapping="Wrap" />
+    </StackPanel>
+</Window>
