@@ -67,7 +67,10 @@ The receiver correctly reset and processed the new batch of signals.
 
 The whiteboard shows course collaboration and planning evidence used while working on the Repeated Signals receiver.
 
-![Whiteboard and course collaboration evidence](Screenshots/Course_Collaboration_Evidence.png) (Screenshots/4Acollaboration.png) (Screenshots/4A.1collab.png)
+![Whiteboard and course collaboration evidence](Screenshots/Course_Collaboration_Evidence.png) 
+![Whiteboard and course collaboration evidence](Screenshots/4Acollaboration.png)
+![Whiteboard and course collaboration evidence](screenshots/4A.1collab.png)
+
 ## How to run and sources
 
 Open CS077.RepeatedSignals.csproj in Visual Studio on Windows with .NET desktop development. Press F5. Press the Scan button to send a batch of signals.
